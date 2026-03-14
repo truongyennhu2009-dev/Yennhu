@@ -1,0 +1,172 @@
+body{
+font-family: Arial, sans-serif;
+font-size:20px;
+line-height:1.8;
+margin:0;
+background:#f4f6fb;
+color:#222;
+opacity:0;
+animation:fadeIn 0.2s forwards;
+}
+
+@keyframes fadeIn{
+from{opacity:0}
+to{opacity:1}
+}
+
+.container{
+width:90%;
+max-width:1000px;
+margin:auto;
+padding:30px;
+}
+
+nav{
+background:#1e2a38;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-size:20px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ffd166;
+}
+
+h1{
+font-size:42px;
+}
+
+h2{
+font-size:32px;
+margin-top:40px;
+}
+
+p{
+font-size:20px;
+}
+
+li{
+font-size:20px;
+}
+
+img{
+width:100%;
+max-width:700px;
+display:block;
+margin:25px auto;
+border-radius:10px;
+}
+
+.hero{
+background-image:url(https://images.unsplash.com/photo-1556228720-195a672e8a03);
+background-size:cover;
+background-position:center;
+height:400px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+text-shadow:2px 2px 10px rgba(0,0,0,0.7);
+}
+
+.hero p{
+font-size:24px;
+text-shadow:2px 2px 10px rgba(0,0,0,0.7);
+}
+
+/* skill */
+
+.skill{
+margin-bottom:20px;
+}
+
+.skill-bar{
+width:100%;
+height:14px;
+background:#ddd;
+border-radius:10px;
+overflow:hidden;
+}
+
+.skill-fill{
+height:100%;
+border-radius:10px;
+}
+
+.hoa{
+width:85%;
+background:#ff6b6b;
+}
+
+.dialy{
+width:80%;
+background:#4dabf7;
+}
+
+.giaotiep{
+width:90%;
+background:#51cf66;
+}
+
+.tamly{
+width:75%;
+background:#ffd43b;
+}
+
+/* comment */
+
+.comment-box{
+max-width:600px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.comment-box input,
+.comment-box textarea{
+padding:10px;
+font-size:16px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+.comment-box textarea{
+height:80px;
+resize:none;
+}
+
+.comment-box button{
+background:#4c6ef5;
+color:white;
+border:none;
+padding:10px;
+border-radius:20px;
+cursor:pointer;
+}
+
+.comment-box button:hover{
+background:#364fc7;
+}
+
+.comment{
+background:white;
+padding:15px;
+border-radius:10px;
+margin:10px auto;
+max-width:700px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
